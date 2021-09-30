@@ -1,0 +1,27 @@
+body{
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    color: white;  
+    font-size: 40px;
+    background-color: cornflowerblue; 
+    width: fit-content;
+    animation: glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    from{box-shadow: 3px 3px 30px grey;}
+    to{box-shadow: 3px 3px 30px black;}
+}
+.click{
+    font-size: 25px;
+    color: black;
+    border: 3px solid black;
+}
+canvas{
+    border: 5px double black;
+    background-color: black;
+}
